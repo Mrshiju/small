@@ -1,0 +1,100 @@
+body, h1, h2, h3, h4, h5, h6, ul, dl, ol, p, input, button, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    font-family: "mircosoft Yahei", arial;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+
+input, button, img {
+    border: 0 none;
+}
+
+input, button {
+    outline-style: none;
+}
+
+img {
+    vertical-align: middle;
+    z-index: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b08546;
+}
+
+.w {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.vf {
+    overflow: hidden;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.title img {
+    top: 36px;
+    left: 50%;
+    margin-left: -372px;
+    transition: 0.3s;
+}
+
+.mask {
+    display: inline-block;
+    width: 288px;
+    height: 450px;
+    background: url(../img/xj.png);
+    position: absolute;
+    top: -450px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.bgc {
+    background-color: #b08746;
+    color: #ffffff;
+}
